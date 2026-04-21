@@ -28,8 +28,8 @@ Kubernetes uses .yaml files:
 
 ***pod-definition.yml***
 ```yaml
-apiVersion:
-kind:
+apiVersion: v1
+kind: Pod
 metadata:
     name: myapp-pod
     labels:
